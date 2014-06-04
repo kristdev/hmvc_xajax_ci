@@ -12,3 +12,23 @@ All already configured and ready to use, a native module welcome, and a module C
 The URL rewrite system is already activated thanks to the . Htaccess file, and form_validation bug has been fixed.
 
 Great Enjoy!
+
+
+Use
+===
+
+1) Download the zip and install it in the folder of your project
+
+2) Cancel the src folder, the composer.phar, .gitignore, composer.json, readme.md files
+
+3) Go to your browser and entering the address http://localhost/yourproject/
+
+4) welcome module is enabled by default. It is located in the application/modules directory.
+
+5) To create your first module, duplicate COPYTHIS folder
+
+6) Assure that the name of your controller has the same name as your module
+
+7) After creating the contoller, verify the address information http://localhost/yourproject/yourmodule
+
+8) To enable default module newly created, go to the application/config directory, edit the file routes.php. Change welcome by yourmodule.
